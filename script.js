@@ -85,7 +85,7 @@ function generateButtons() {
   function reset(){
     mistakes = 0;
     guessed = [];
-    document.getElementById('hangmanPic').src = './images/0.jpg';
+    document.getElementById('hangmanPic').src = './images/00.jpg';
   
     randomLang();
     guessedWord();
