@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="hangy.png">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="randomLang()">
+        <h2>HangMan Game🪂</h2>
+        <div class="hang">
+            <img id="hangmanPic" src="/images/00.jpg" alt="">
+            <div class="wrong-letters">
+                <p>Wrong Guesses: <b id="mist">0</b> of 6</p>
+            </div>
+        </div>
+        <span>Guess the <i>programming</i> language :</span>
+        <!-- <p style="margin-top: 0px;" id="ran">random language </p> -->
+        <p id="und"></p>
+        <!-- <p id="res"></p> -->
+        <!-- <p id="mod"></p> -->
+        <!-- <div class="keyB">
+            <div>
+                <button>q</button>
+                <button>w</button>
+                <button>e</button>
+                <button>r</button>
+                <button>t</button>
+                <button>y</button>
+                <button>u</button>
+                <button>i</button>
+                <button>o</button>
+                <button>p</button>
+            </div>
+            <div>
+                <button>a</button>
+                <button>s</button>
+                <button>d</button>
+                <button>f</button>
+                <button>g</button>
+                <button>h</button>
+                <button>j</button>
+                <button>k</button>
+                <button>l</button>
+            </div>
+            <div>
+                <button>z</button>
+                <button>x</button>
+                <button>c</button>
+                <button>v</button>
+                <button>b</button>
+                <button>n</button>
+                <button>m</button>
+
+            </div>
+        </div> -->
+        <div id="keyboard"></div>
+        <button style="margin-top: 10px;" onclick="reset()">replay</button>
+        <script src="script.js"></script>
+    </body>
+</html>
